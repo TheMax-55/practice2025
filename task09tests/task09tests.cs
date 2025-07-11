@@ -40,7 +40,7 @@ public class MetadataViewerTests
         Assert.Contains("TestMethod", output.ToString());
         Assert.Contains("get_Number", output.ToString());
         Assert.Contains("set_Number", output.ToString());
-        Assert.Contains("Параметр: value (Int32)", output.ToString());   
+        Assert.Contains("Параметр: value (Int32)", output.ToString());
     }
 
     [Fact]
