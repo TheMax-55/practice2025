@@ -61,7 +61,7 @@ public class MetadataViewerTests
     public void MetadataViewer_ShouldPrintCorrectConstructors()
     {
         var baseDir = AppContext.BaseDirectory;
-        var path = "task07.dll";
+        var path = Path.Combine(baseDir, "task07.dll");
 
         var output = new StringWriter();
         Console.SetOut(output);
